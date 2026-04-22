@@ -1,0 +1,182 @@
+{
+  "identifier" : "8A3F5E2B-1234-4567-89AB-CDEF01234567",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1234567890",
+    "_developerTeamID" : "XXXXXXXXXX",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "tr",
+    "_storefront" : "TUR",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Transaction Manager"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "biosight_subscriptions",
+      "localizations" : [
+        {
+          "description" : "Biosight abonelik planları",
+          "displayName" : "Biosight",
+          "locale" : "tr"
+        }
+      ],
+      "name" : "Biosight",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "basic_monthly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Günde 15 AI analiz, detaylı değer bilgileri, trend analizi",
+              "displayName" : "Temel Aylık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "dev.spacechild.biosight.basic.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Temel Aylık",
+          "subscriptionGroupID" : "biosight_subscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "295",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "basic_yearly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Günde 15 AI analiz, detaylı değer bilgileri, trend analizi — yıllık %15 indirim",
+              "displayName" : "Temel Yıllık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "dev.spacechild.biosight.basic.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Temel Yıllık",
+          "subscriptionGroupID" : "biosight_subscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "premium_monthly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Günde 50 AI analiz, Gemini Pro detaylı analiz, kişiselleştirilmiş öneriler",
+              "displayName" : "Premium Aylık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "dev.spacechild.biosight.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Aylık",
+          "subscriptionGroupID" : "biosight_subscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1009",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "premium_yearly_001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Günde 50 AI analiz, Gemini Pro detaylı analiz, kişiselleştirilmiş öneriler — yıllık %15 indirim",
+              "displayName" : "Premium Yıllık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "dev.spacechild.biosight.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yıllık",
+          "subscriptionGroupID" : "biosight_subscriptions",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
