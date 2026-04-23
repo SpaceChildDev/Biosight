@@ -109,7 +109,7 @@ When our privacy policy is updated, the "Last updated" date on this page will ch
 
 For questions about our privacy policy:
 
-**Email:** dagkan@dagkan.com
+**Email:** dagkan@spacechild.dev
 
 ---
 
