@@ -1,0 +1,81 @@
+export const ACADEMIC_SOURCES = [
+  {
+    category: "Birincil Veritabanları",
+    items: [
+      { name: "PubMed / NCBI", url: "https://pubmed.ncbi.nlm.nih.gov" },
+      { name: "PMC (PubMed Central)", url: "https://pmc.ncbi.nlm.nih.gov" },
+      { name: "NCBI Bookshelf", url: "https://www.ncbi.nlm.nih.gov/books" },
+      { name: "Cochrane Library", url: "https://www.cochranelibrary.com" },
+      { name: "MEDLINE / Ovid", url: "https://ovidsp.ovid.com" },
+    ],
+  },
+  {
+    category: "Uluslararası Sağlık Kuruluşları",
+    items: [
+      { name: "WHO Guidelines", url: "https://www.who.int/publications/who-guidelines" },
+      { name: "WHO — Good Clinical Laboratory Practice (GCLP)", url: "https://wkc.who.int" },
+      { name: "NIH", url: "https://www.nih.gov" },
+      { name: "CDC", url: "https://www.cdc.gov" },
+      { name: "CLSI (Clinical & Laboratory Standards Institute)", url: "https://clsi.org" },
+    ],
+  },
+  {
+    category: "Referans Laboratuvarları & Üniversite Hastaneleri",
+    items: [
+      { name: "Mayo Clinic Laboratories — Test Catalog", url: "https://www.mayocliniclabs.com/test-catalog" },
+      { name: "Johns Hopkins Medicine", url: "https://www.hopkinsmedicine.org" },
+      { name: "Harvard Medical School", url: "https://hms.harvard.edu" },
+      { name: "ACCP Lab Values Reference", url: "https://www.accp.com/docs/sap/Lab_Values_Table_PSAP.pdf" },
+    ],
+  },
+  {
+    category: "Alan Bazlı Klinik Rehberler (Guidelines)",
+    items: [
+      { name: "KDIGO (Böbrek)", url: "https://kdigo.org" },
+      { name: "ADA Standards of Care (Diyabet)", url: "https://diabetesjournals.org/care" },
+      { name: "ACC/AHA Guidelines (Kardiyovasküler)", url: "https://www.acc.org/guidelines" },
+      { name: "ESC Guidelines (Kardiyovasküler, Avrupa)", url: "https://www.escardio.org/Guidelines" },
+    ],
+  },
+  {
+    category: "Hakemli Akademik Dergiler",
+    items: [
+      { name: "Clinical Chemistry (AACC)", url: "https://academic.oup.com/clinchem" },
+      { name: "Annals of Clinical Biochemistry", url: "https://journals.sagepub.com/home/acb" },
+      { name: "Journal of Clinical Pathology", url: "https://jcp.bmj.com" },
+      { name: "JACC", url: "https://www.jacc.org" },
+      { name: "European Heart Journal", url: "https://academic.oup.com/eurheartj" },
+      { name: "Circulation (AHA)", url: "https://www.ahajournals.org/journal/circ" },
+      { name: "Diabetes Care (ADA)", url: "https://diabetesjournals.org/care" },
+      { name: "Diabetologia", url: "https://www.springer.com/journal/125" },
+      { name: "Kidney International", url: "https://www.kidney-international.org" },
+      { name: "Journal of the American Society of Nephrology (JASN)", url: "https://jasn.asnjournals.org" },
+      { name: "Blood (ASH)", url: "https://ashpublications.org/blood" },
+      { name: "British Journal of Haematology", url: "https://onlinelibrary.wiley.com/journal/13652141" },
+      { name: "Thyroid (ATA)", url: "https://www.liebertpub.com/journal/thy" },
+      { name: "European Thyroid Journal", url: "https://eurthyroidj.org" },
+      { name: "Journal of Hepatology", url: "https://www.journal-of-hepatology.eu" },
+      { name: "Atherosclerosis", url: "https://www.atherosclerosis-journal.com" },
+    ],
+  },
+];
+
+export const DOMAIN_WHITELIST = [
+  "pubmed.ncbi.nlm.nih.gov",
+  "pmc.ncbi.nlm.nih.gov",
+  "ncbi.nlm.nih.gov",
+  "who.int",
+  "cdc.gov",
+  "nih.gov",
+  "clsi.org",
+  "cochranelibrary.com",
+  "kdigo.org",
+  "mayocliniclabs.com/test-catalog",
+  "hopkinsmedicine.org",
+  "acc.org",
+  "escardio.org",
+  "diabetesjournals.org",
+  "ashpublications.org",
+  "kidney-international.org",
+  "jasn.asnjournals.org",
+];
